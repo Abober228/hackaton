@@ -135,6 +135,11 @@
             }
         };
 
+        function getInitData() {
+            var d = retrieveLaunchParams();
+            return d
+        }
+
         function setViewportData() {
             var sizeEl = document.getElementById('viewport-params-size');
             sizeEl.innerText = 'width: ' + window.innerWidth + ' x ' + 
