@@ -11,6 +11,11 @@
             padding: 0;
             background: var(--telegram-theme-bg-color);
         }
+        .version {
+            position: absolute;
+            left: 0;
+            bottom: 15px;
+        }
         .container {
             max-width: 600px;
             margin: 0 auto;
@@ -48,7 +53,7 @@
             align-items: center;
             padding: 10px 0;
             border-bottom: 1px solid #ddd;
-            color: var(--telegram-theme-text-color);
+            color: var(--tg-theme-text-color);
         }
         .debt-item button {
             padding: 5px 10px;
@@ -109,6 +114,7 @@
         <div class="add-debt">
             <button onclick="redirectToNewDebtPage()">Add new Debt</button>
         </div>
+        <div class="verion">v7<div></div>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
