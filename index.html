@@ -32,7 +32,7 @@
             border-bottom: 2px solid #007bff;
         }
         .profile {
-            color:white;
+            color: var(--telegram-theme-text-color);
         }
         .profile {
             display: flex;
@@ -115,7 +115,7 @@
         // Init TWA
         Telegram.WebApp.ready();
         document.querySelector('.profile h3').textContent = window.Telegram.WebApp.initDataUnsafe.user.username
-        //test if updated 4
+        //test if updated 5
     </script>
     <script>
         function redirectToNewDebtPage() {
