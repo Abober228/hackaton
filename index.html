@@ -121,8 +121,7 @@
     <script>
         // Init TWA
         Telegram.WebApp.ready();
-        document.querySelector('.profile h3').textContent = window.Telegram.WebApp.initDataUnsafe.first_name
-       
+        document.querySelector('.profile h3').textContent = window.Telegram.WebApp.initDataUnsafe.user.username
     </script>
     <script>
         function redirectToNewDebtPage() {
