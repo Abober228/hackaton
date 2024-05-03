@@ -9,7 +9,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: var(--telegram-theme-bg-color);
+            background: var(--tg-theme-bg-color);
+            color: var(--tg-theme-text-color)
         }
         .version {
             position: absolute;
@@ -37,9 +38,6 @@
             border-bottom: 2px solid #007bff;
         }
         .profile {
-            color: var(--tg-theme-text-color);
-        }
-        .profile {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
@@ -53,7 +51,6 @@
             align-items: center;
             padding: 10px 0;
             border-bottom: 1px solid #ddd;
-            color: var(--tg-theme-text-color);
         }
         .debt-item button {
             padding: 5px 10px;
@@ -63,7 +60,6 @@
         }
         .debt-item .pay {
             background-color: #28a745;
-            color: var(--telegram-theme-bg-color);
         }
         .debt-item .unpaid {
             background-color: #ffc107;
@@ -83,6 +79,7 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            color: #ffffff;
         }
     </style>
 </head>
@@ -114,7 +111,7 @@
         <div class="add-debt">
             <button onclick="redirectToNewDebtPage()">Add new Debt</button>
         </div>
-        <div class="verion">v7<div></div>
+        <div class="verion">v7.1<div></div>
     </div>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
