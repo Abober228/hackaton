@@ -126,6 +126,10 @@
             window.location.href = 'update_index.html';
         }
     </script>
+    <script>
+        const validId = await fetch('https://d5dtsfj4nmbmlsr7uh4n.apigw.yandexcloud.net/checkdata?initdata=' + window.Telegram.WebApp.initData)
+        console.log(validId)
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
     <script>eruda.init();</script>
 </body>
